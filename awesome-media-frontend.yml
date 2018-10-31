@@ -10,14 +10,7 @@ spring:
     name: awesome-media-frontend    
   thymeleaf:
     prefix: classpath:/static/html/
-                
-api:
-  bff:
-    path: /
-  services:
-    url: http://localhost:9999/awesome-media
-    #url: http://localhost:8090
-    
+
 hystrix:
   command:
   default:
